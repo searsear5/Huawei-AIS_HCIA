@@ -17,3 +17,11 @@ ARP spoofing ส่ง arp reply ปลอม IP นี้ = MAC ของฉั
 MAC flooding
 VLAN hopping
 Sniff traffic ถ้า config ไม่ดี
+
+    PC1 → Switch → (Router) → Internet
+                ↘
+                PC2
+
+**switch มี MAC table**
+
+ต่างจาก hub ที่ hub กระจายทุกพอร์ต แต่ switch ส่งเฉพาะพอร์ตปลายทาง ตาม MAC table
